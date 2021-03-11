@@ -18,7 +18,7 @@ export default class Launcher extends React.Component {
    */
   componentDidMount() {
     SMART.authorize({
-      clientId: "my-client-id",
+      clientId: "f98ce8a6-a5b3-4988-8ac3-4b0146ab5f38",
       scope: "launch launch/patient patient/read offline_access",
       redirectUri: "./app",
       iss:
